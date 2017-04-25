@@ -17,11 +17,9 @@
       ]
     }
   },
-  "pre-commit": "lint-staged",
   "devDependencies": {
     "eslint": "3.19.0",
     "husky": "0.13.3",
-    "lint-staged": "3.4.0",
-    "pre-commit": "1.2.2"
+    "lint-staged": "3.4.0"
   }
 }
