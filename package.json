@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint-staged": "lint-staged",
     "precommit": "lint-staged",
-    "commitmsg": "echo \"jjdjdjd\""
+    "commitmsg": "node ./validateMsg.js"
   },
   "lint-staged": {
     "*.js": [
