@@ -10,7 +10,9 @@
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "linter": {
+      "*.js": ["eslint --fix", "git add"]
+    }
   },
   "pre-commit": "lint-staged",
   "devDependencies": {
