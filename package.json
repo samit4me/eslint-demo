@@ -6,7 +6,6 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint-fix": "eslint --fix **/*.js",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
@@ -20,7 +19,6 @@
   "pre-commit": "lint-staged",
   "devDependencies": {
     "eslint": "3.19.0",
-    "lint-staged": "3.4.0",
-    "pre-commit": "1.2.2"
+    "lint-staged": "3.4.0"
   }
 }
