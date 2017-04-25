@@ -30,8 +30,6 @@ var validate = function (msg, isFile) {
 };
 
 
-console.log('<<<<<<<<<<<<<');
-
 
 
 function validateMsg(raw) {
@@ -46,7 +44,7 @@ function validateMsg(raw) {
     return false;
   }
 
-  console.log('>>>>>>>>', message);
+  console.log('>>>>>>>>TODO validate the message', message);
 
   return true;
 };
@@ -68,5 +66,3 @@ fs.readFile(commitMsgFileOrText, function readFile(err, buffer) {
 });
 
 
-
-console.log('<<<<<<<<<<<<<');
