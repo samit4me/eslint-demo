@@ -3,7 +3,8 @@
 
 console.log('<<<<<<<<<<<<<');
 
-module.exports = function validateMsg(msg) {
-  console.log('>>>>>>>>', msg);
-  return false;
-};
+process.argv.forEach(function (val, index, array) {
+  console.log(index + ': ' + val);
+});
+
+console.log('<<<<<<<<<<<<<');
