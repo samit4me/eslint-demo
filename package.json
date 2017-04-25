@@ -10,12 +10,10 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "linters": {
-      "*.js": [
-        "eslint --fix",
-        "git add"
-      ]
-    }
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "devDependencies": {
     "eslint": "3.19.0",
